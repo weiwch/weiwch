@@ -10,11 +10,11 @@ I'm a Ph.D. student at **USTC**. My research spans **data management and informa
 
 #### Databases & AI4DB
 
-- **[PilotScope](https://github.com/alibaba/pilotscope)** · `VLDB 2024` · **Core contributor** ([56 commits](https://github.com/alibaba/pilotscope/commits?author=weiwch))  
+- **[PilotScope](https://github.com/alibaba/pilotscope)** · `VLDB 2024` · **Core contributor** ([56 commits](https://github.com/alibaba/pilotscope/commits?author=weiwch), 2023.2–2024.5)  
   Contributed substantially to the design, development, and refactoring of the AI4DB middleware, bridging machine learning algorithms and database systems.
+  - [PostgreSQL kernel development](https://github.com/alibaba/pilotscope/tree/pilotscope-postgresql) — Extended the query optimizer in C to support externally supplied cardinality estimates for base and join relations, with hash-based subquery matching.
   - [Database control interfaces](https://github.com/alibaba/pilotscope/commit/e7b1eb5553a408613f8cf40d39db4326655e3d66) and Python APIs for database interaction.
-  - [`pg_hint_plan`](https://github.com/ossc-db/pg_hint_plan) [integration](https://github.com/alibaba/pilotscope/commit/bacb018ca74133326135271f6165cda3a4c7647e) and [query-plan control](https://github.com/alibaba/pilotscope/commit/06f7c1ac62c5a2fbd5962442903669dc2d7593f7).
-  - [System architecture refactoring](https://github.com/alibaba/pilotscope/commit/da56313691b6b335f3e670b25fd1b7ac852a9658), experiment infrastructure, and AI4DB algorithm integration.
+  - [Query-plan control](https://github.com/alibaba/pilotscope/commit/06f7c1ac62c5a2fbd5962442903669dc2d7593f7) via [`pg_hint_plan`](https://github.com/ossc-db/pg_hint_plan), [system refactoring](https://github.com/alibaba/pilotscope/commit/da56313691b6b335f3e670b25fd1b7ac852a9658), and AI4DB algorithm integration.
 - Other contributions: [HypoPG](https://github.com/HypoPG/hypopg)
 
 #### Generative Search & Recommendation
